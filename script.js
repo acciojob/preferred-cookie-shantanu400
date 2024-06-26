@@ -9,7 +9,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
   // Save the values as cookies
  // document.cookie = `fontsize=${fontsize}; expires`;
 	document.cookie="fontsize=fontsize; expires=Thu,27 June 2024, 12:00:00 UTC ";
-  document.cookie = `fontcolor=${fontcolor}; expires=Thu,27 June 2024, 12:00:00 UTC`;
+  document.cookie = "fontcolor=fontcolor; expires=Thu,27 June 2024, 12:00:00 UTC";
 
 	document.documentElement.style.setProperty('--fontsize', fontsize + 'px');
   document.documentElement.style.setProperty('--fontcolor', fontcolor);
